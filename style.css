@@ -1,0 +1,6 @@
+body { background: linear-gradient(to bottom, #f8f9fa, #e9ecef); font-family: Arial, sans-serif; }
+.card { transition: transform 0.3s ease, box-shadow 0.3s ease; border-radius: 10px; }
+.card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
+.suggestions { position: absolute; background: white; border: 1px solid #ccc; max-height: 150px; overflow-y: auto; display: none; z-index: 10; border-radius: 5px; }
+#priceChart { max-height: 400px; }
+@media (max-width: 768px) { .container { padding: 10px; } } /* Responsividade aprimorada */
